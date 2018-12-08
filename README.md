@@ -1,5 +1,7 @@
 # Getting BBC microbit radio messages onto a big screen
 
+At microbit workshops it's common to use a microbit or two programmed to listen to the radio channels and report messages.  This code extends that idea so that the latest messages are shown on a big screen on a connected computer (in a p5.js sketch on a web browser, so fancier visualisation would be possible).
+
 Uses the p5.serialport library for p5.js, and p5 Serial Control executable.
 
 # Pre-requisites
