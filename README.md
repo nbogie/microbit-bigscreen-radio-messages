@@ -4,6 +4,8 @@ At microbit workshops it's common to use a microbit or two programmed to listen 
 
 Uses the p5.serialport library for p5.js, and p5 Serial Control executable.
 
+https://github.com/nbogie/microbit-bigscreen-radio-messages
+
 # Pre-requisites
 
 * a computer running chrome or firefox, and with a usb port with which it will  talk to a micro:bit.
