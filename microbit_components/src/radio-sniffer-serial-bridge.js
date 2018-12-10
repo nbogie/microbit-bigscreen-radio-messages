@@ -15,7 +15,7 @@ radio.onReceivedString(function (receivedString) {
     led.toggle(0, 0)
 })
 function reportChangedGroup() {
-    serial.writeLine("" + `relay listens group ${group}|001`)
+    serial.writeLine("" + `Relay listening to group ${group}|0000`)
     led.toggle(0, 0)
 }
 input.onButtonPressed(Button.A, function () {
@@ -35,3 +35,5 @@ function incrementGroup(inc: number) {
 }
 group = 1
 radio.setGroup(group)
+reportChangedGroup()
+
